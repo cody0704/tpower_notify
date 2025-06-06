@@ -26,3 +26,7 @@ TAIPOWER_URL 需要自行去確認所在區域的停電資訊網址，請參考 
 
 - 範例，這是苗栗區的 https://service.taipower.com.tw/branch/d122/xcnotice?xsmsid=0M242581315483543322
 - 範例，這是台北西區的 https://service.taipower.com.tw/branch/d117/xcnotice?xsmsid=0M242581310300276906
+
+## 示意圖
+
+<img src="https://github.com/cody0704/tpower_notify/blob/main/docs/img/telegram_simple.jpeg?raw=true" width="600">
