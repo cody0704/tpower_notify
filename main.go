@@ -51,7 +51,7 @@ func main() {
 	}
 
 	// 只保留爬蟲公告網站功能
-	url := flag.String("url", "https://service.taipower.com.tw/branch/d117/xcnotice?xsmsid=0M242581310300276906", "公告網址")
+	url := flag.String("url", os.Getenv("TAIPOWER_URL"), "公告網址")
 	keywords := flag.String("keywords", os.Getenv("ADDRESS"), "地點關鍵字，多個以逗號分隔")
 	flag.Parse()
 
